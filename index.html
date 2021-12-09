@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>example</title>    
+    <link rel="stylesheet" href="style.css"> 
+    
+</head>
+
+<body class="container">
+    <h3>
+        add task
+    </h2>
+    <input type="text" name="task" id="tasking" >
+    <input type="button" name="btn" value="add" onclick="add();">
+  
+    <div>
+        <ul id="myul">
+            <li>play game   <input type="image"  src="binimage.png"
+                 height="15px" width="15px" class="remove  btn" onclick="remove();"> 
+            </li>
+            <li>go to gym    <input type="image" class="remove btn" src="binimage.png"
+                height="15px" width="15px"  onclick="remove();"> 
+            </li>
+            <li>buy milk     <input type="image" class="remove btn" src="binimage.png"
+                height="15px" width="15px"  onclick="remove();"> 
+            </li>
+            <li>walking     <input type="image" class="remove btn" src="binimage.png"
+                height="15px" width="15px"  onclick="remove();"> 
+            </li>
+        </ul>
+           
+    </div>
+    <h3>Search task</h2>
+    <input type="text" name="search" id="search" >
+    <input type="button" value="search" onclick="search();">
+    <ul id="ul">
+        
+    </ul>
+    <script src="main.js"></script>
+
+</body>
+</html>
